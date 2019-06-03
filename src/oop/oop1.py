@@ -17,3 +17,30 @@
 #     pass
 #
 # Put a comment noting which class is the base class
+class Vehicle():
+    '''This is the base class'''
+    pass
+
+class FlightVehicle(Vehicle):
+    '''This class inherits from Vehicle'''
+    pass
+
+class Starship(FlightVehicle):
+    '''This class inherits from FlightVehicle'''
+    pass
+
+class Airplane(FlightVehicle):
+    '''This class inherits from FlightVehicle'''
+    pass
+
+class GroundVehicle(Vehicle):
+    '''This class inherits from Vehicle'''
+    pass
+
+class Car(GroundVehicle):
+    '''This class inherits from GroundVehicle'''
+    pass
+
+class Motorcycle(GroundVehicle):
+    '''This class inherits from GroundVehicle'''
+    pass
